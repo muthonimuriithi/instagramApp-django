@@ -1,0 +1,20 @@
+{%extends 'base.html'%}
+{% load bootstrap5 %}
+{%block content%}
+<style>
+    nav {
+        font-style: italic;
+    }
+    form{
+        width:50%;
+        margin: auto;
+    }
+</style>
+<div>
+    <form action="#" class="mt-4" enctype="multipart/form-data" method="POST">
+        {%csrf_token%}
+            {% bootstrap_form form %}
+        <input class="btn btn-success" type="submit" value="Upload Picture">
+    </form>
+</div>
+{%endblock%}
