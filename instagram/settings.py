@@ -28,7 +28,7 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 MODE = config("MODE", default="dev")
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY='342s(s(!hsjd998sde8$=o4$3m!(o+kce2^97kp6#ujhi'
 DEBUG = os.environ.get('DEBUG', False)
 
 # development
