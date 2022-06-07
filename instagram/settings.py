@@ -29,7 +29,7 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 BASE_DIR = Path(__file__).resolve().parent.parent
 MODE = config("MODE", default="dev")
 SECRET_KEY='342s(s(!hsjd998sde8$=o4$3m!(o+kce2^97kp6#ujhi'
-DEBUG = os.environ.get('DEBUG', False)
+DEBUG = os.environ.get('DEBUG', True)
 
 # development
 if config('MODE') == "dev":
