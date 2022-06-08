@@ -40,7 +40,7 @@ A django applications where users can upload their photos  as well as view other
 
 ## Live Link
 
-* [Click Here]() to view my Instagram
+* [Click Here](https://instaloise.herokuapp.com/) to view my Instagram
 
 
 ## Contact Information
